@@ -62,6 +62,10 @@ They are created using the `NewHTTPClient` function.
 A default client is provided as the `DefaultClient` variable.
 This client will use a local client for all OpenTelemetry published schema, but also use an HTTP client for all uncached schemas.
 
+## License
+
+This Go module is distributed under the Apache-2.0 license found in the [LICENSE](./LICENSE) file.
+
 [OpenTelemetry Go]: https://pkg.go.dev/go.opentelemetry.io/otel
 [OpenTelemetry schemas]: https://opentelemetry.io/docs/specs/otel/schemas/
 [`*resource.Resource`]: https://pkg.go.dev/go.opentelemetry.io/otel/sdk/resource#Resource
