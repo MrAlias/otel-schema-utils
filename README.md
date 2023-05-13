@@ -1,6 +1,7 @@
 # OpenTelemetry Schema Utilities
 
 [![Go Reference](https://pkg.go.dev/badge/github.com/MrAlias/otel-schema-utils.svg)](https://pkg.go.dev/github.com/MrAlias/otel-schema-utils)
+[![CI](https://github.com/MrAlias/otel-schema-utils/actions/workflows/golangci-lint.yml/badge.svg)](https://github.com/MrAlias/otel-schema-utils/actions/workflows/golangci-lint.yml)
 
 This repository provides conversion utilities for [OpenTelemetry Go] types using [OpenTelemetry schemas].
 
