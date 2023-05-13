@@ -20,6 +20,7 @@ import (
 
 	"github.com/MrAlias/otel-schema-utils/schema/internal/cmp"
 	"github.com/MrAlias/otel-schema-utils/schema/internal/resconv"
+
 	"go.opentelemetry.io/otel/sdk/resource"
 )
 
