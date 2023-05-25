@@ -4,7 +4,7 @@ go 1.20
 
 require (
 	github.com/Masterminds/semver/v3 v3.2.1
-	github.com/stretchr/testify v1.8.2
+	github.com/stretchr/testify v1.8.3
 	go.opentelemetry.io/otel v1.15.1
 	go.opentelemetry.io/otel/schema v0.0.4
 	go.opentelemetry.io/otel/sdk v1.15.1
