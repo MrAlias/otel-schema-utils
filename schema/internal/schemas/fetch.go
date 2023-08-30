@@ -24,6 +24,7 @@ import (
 )
 
 var urls = []string{
+	"https://opentelemetry.io/schemas/1.21.0",
 	"https://opentelemetry.io/schemas/1.20.0",
 	"https://opentelemetry.io/schemas/1.19.0",
 	"https://opentelemetry.io/schemas/1.18.0",
