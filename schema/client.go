@@ -21,7 +21,6 @@ import (
 	"fmt"
 	"io/fs"
 	"net/http"
-	"os"
 	"path"
 	"strings"
 
@@ -44,7 +43,7 @@ var local = func() map[string]*ast.Schema {
 			return err
 		}
 
-		f, err := os.Open(p)
+		f, err := schemas.Open(p)
 		if err != nil {
 			return err
 		}
