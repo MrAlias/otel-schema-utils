@@ -113,8 +113,8 @@ var errMissLocal = errors.New("schema not in local cache")
 func NewStaticClient(data map[string]*ast.Schema) *Client {
 	return &Client{
 		cache: newCache(data),
-		fallback: func(context.Context, string) (*ast.Schema, error) {
-			return nil, errMissLocal
+		fallback: func(_ context.Context, url string) (*ast.Schema, error) {
+			return nil, fmt.Errorf("%w: %s", errMissLocal, url)
 		},
 	}
 }
