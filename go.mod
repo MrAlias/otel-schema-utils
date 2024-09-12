@@ -1,14 +1,13 @@
 module github.com/MrAlias/otel-schema-utils
 
 go 1.21
-
-toolchain go1.22.2
+toolchain go1.22.5
 
 require (
 	github.com/Masterminds/semver/v3 v3.3.0
 	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/otel v1.29.0
-	go.opentelemetry.io/otel/schema v0.0.8
+	go.opentelemetry.io/otel/schema v0.0.9
 	go.opentelemetry.io/otel/sdk v1.29.0
 )
 
