@@ -56,16 +56,16 @@ func Upgrade(schema *ast.Schema, attrs []attribute.KeyValue) error {
 
 // Downgrade downgrade attrs to the schema version of url in place with schema.
 func Downgrade(schema *ast.Schema, url string, attrs []attribute.KeyValue) error {
-	var min *semver.Version
+	var minVer *semver.Version
 	if url != "" {
 		var err error
-		min, err = internal.Version(url)
+		minVer, err = internal.Version(url)
 		if err != nil {
 			return fmt.Errorf("downgrade error: %w", err)
 		}
 	}
 
-	vers, err := versions(schema, min, true)
+	vers, err := versions(schema, minVer, true)
 	if err != nil {
 		return fmt.Errorf("downgrade error: %w", err)
 	}
