@@ -5,7 +5,7 @@ go 1.22
 toolchain go1.23.1
 
 require (
-	github.com/Masterminds/semver/v3 v3.3.0
+	github.com/Masterminds/semver/v3 v3.3.1
 	github.com/stretchr/testify v1.9.0
 	go.opentelemetry.io/otel v1.32.0
 	go.opentelemetry.io/otel/schema v0.0.11
