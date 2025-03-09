@@ -107,7 +107,7 @@ linters-settings:
       - name: context-as-argument
         disabled: true
         arguments:
-          allowTypesBefore: "*testing.T"
+          - allowTypesBefore: "*testing.T"
       # https://github.com/mgechev/revive/blob/master/RULES_DESCRIPTIONS.md#context-keys-type
       - name: context-keys-type
         disabled: false
