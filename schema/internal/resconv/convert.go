@@ -12,6 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+// Package resconv provides functionality to convert Resources between
+// telemetry versions.
 package resconv // import "github.com/MrAlias/otel-schema-utils/schema/resconv"
 
 import (

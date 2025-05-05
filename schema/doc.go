@@ -12,22 +12,6 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-// Package internal provides internal functionality for the schema package.
-package internal
-
-import (
-	"net/url"
-	"strings"
-
-	"github.com/Masterminds/semver/v3"
-)
-
-func Version(schemaURL string) (*semver.Version, error) {
-	// https://github.com/open-telemetry/oteps/blob/main/text/0152-telemetry-schemas.md#schema-url
-	u, err := url.Parse(schemaURL)
-	if err != nil {
-		return nil, err
-	}
-
-	return semver.NewVersion(u.Path[strings.LastIndex(u.Path, "/")+1:])
-}
+// Package schema provides functionality to load and parse OpenTelemetry
+// schemas.
+package schema // import "github.com/MrAlias/otel-schema-utils/schema"

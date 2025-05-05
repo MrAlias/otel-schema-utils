@@ -12,6 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
+// Package cmp provides comparison utilities for schema URLs.
 package cmp // import "github.com/MrAlias/otel-schema-utils/schema/cmp"
 
 import (
