@@ -6,7 +6,7 @@ require (
 	github.com/Masterminds/semver/v3 v3.5.0
 	github.com/stretchr/testify v1.12.1
 	go.opentelemetry.io/otel v1.46.0
-	go.opentelemetry.io/otel/schema v0.0.18
+	go.opentelemetry.io/otel/schema v0.0.19
 	go.opentelemetry.io/otel/sdk v1.46.0
 )
 
